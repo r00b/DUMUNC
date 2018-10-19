@@ -1,0 +1,390 @@
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-63167919-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  <!DOCTYPE html>
+
+<!-- Welcome visitor! Please let me know if you have any suggestions on how to make my code
+     prettier! And if you like anything you see here, feel free to use in your website, just
+     make sure to cite me! Collaboration is the essence of computer science and technology!
+                                                              Lucas Freitas, me@lfreitas.com
+-->
+
+<html>
+  <head>
+    <link rel="shortcut icon" href="assets/img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+
+          <title>Harvard Model United Nations</title>
+    
+    <!-- Font from Google, Bootstrap, Font Awesome, and personal CSS -->
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,100,700' rel='stylesheet' type='text/css'>
+    <link rel='stylesheet' type='text/css' href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel='stylesheet' type='text/css' href='assets/css/styles.css'/>
+    <link rel="stylesheet" href="assets/css/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+    <link rel="stylesheet" href="assets/css/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+    <link rel="stylesheet" href="assets/css/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+    <link rel="stylesheet" href="assets/css/jquery.countdown.css">
+
+    <!-- Google Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-46445550-1', 'harvardmun.org');
+      ga('send', 'pageview');
+
+    </script>
+ 
+  </head>
+  
+  <body>
+    <!-- Container starts -->
+    <div class="main-container">
+      <!-- Header starts -->
+      <div class="header">
+        <div class="navbar navbar-inverse navbar-fixed-top">
+          <div class="navbar-inner">
+            <div class="container">       
+              <div class="contact-left"><i class="icon-map-marker"></i>&nbsp;&nbsp;59 Shepard St. Box 205 Cambridge, MA 02138 &nbsp;&nbsp;&nbsp;<i class="icon-phone"></i>&nbsp;+1 (617) 398-0772&nbsp;&nbsp;&nbsp;<i class="icon-envelope"></i>&nbsp;&nbsp;<a class="contact-top" href="mailto:info@harvardmun.org">info@harvardmun.org</a></div>       
+              <div class="right-bar nav-collapse collapse">
+                <div class="contact-right"><a class="button-top" target="_blank" href="https://twitter.com/harvardmun"><i class="icon-twitter button"></i></a>&nbsp;&nbsp;<a class="button-top" target="_blank" href="https://www.facebook.com/harvardmun"><i class="icon-facebook button"></i></a></div>
+                <!--<form class="navbar-search pull-left search-top" action="">
+                  <input type="text" class="search-query">&nbsp;
+                  <i class="icon-search"></i>
+                </form>-->
+              </div>
+            </div>
+          </div>
+        </div>
+    <div class="navbar navbar-fixed-top center nav-collapse collapse">
+      <div class="navbar-inner">
+        <div class="container">
+          <ul class="nav">
+            <li class="top-bar active"><a class="active" href="index.php">HOME</a></li>
+            <li class="top-bar"><a href="about.php">ABOUT US</a></li>
+            <li class="top-bar"><a href="involve.php">INFORMATION</a></li>
+            <li class="top-bar"><a href="committees.php">COMMITTEES</a></li>
+            <li class="top-bar"><a href="preparation.php">PREPARATION</a></li>
+            <li class="top-bar"><a href="http://www.hmunchina.org/" target="_blank">HMUN CHINA</a></li>
+            <li class="top-bar"><a href="http://hmunindia.org/" target="_blank">HMUN INDIA</a></li>
+            <li class="top-bar"><a href="contact.php">CONTACT</a></li>
+            <li class="top-bar"><a href="http://munbase.harvardmun.org/" target="_blank" style="color:FireBrick; font-size:14px"><b>APPLY</b></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  <div class="wrapper">
+    <body>
+      <div id="slider" class="carousel slide slide-custom">
+        <div class="carousel-inner">
+          <div class="item active">
+            <img class="carousel-img" src="assets/img/quad_2017.jpg" alt="" />
+          </div>
+          <div class="item">
+            <img class="carousel-img" src="assets/img/CANDID.jpg" alt="" />
+          </div>
+          <div class="item">
+            <img class="carousel-img" src="assets/img/boston_2017.jpg" alt="" />
+          </div>
+        </div>
+        <a class="carousel-control left" href="#slider" data-slide="prev">&lsaquo;</a>
+        <a class="carousel-control right" href="#slider" data-slide="next">&rsaquo;</a>
+      </div>
+
+      <div class="container spirit">
+        <div class="home-span">
+          <div class="section-narrow">
+            <hr class="spirit"/>
+            <h5>WELCOME TO HMUN 2017</h5>
+            <hr class="spirit"/>
+            <h5>CONFERENCE COUNTDOWN</h5>
+            <div id="defaultCountdown"></div>
+            <hr class="spirit"/>
+            <h5><a href="http://munbase.harvardmun.org/" target="_blank">LOGIN HERE</a></h5>
+            <hr class="spirit">
+          </div>
+          <div class="section-wide">
+            <h5 class="spirit">Dear Delegates and Faculty Advisors,</h5>
+
+ <p> The sixty-fourth session of Harvard Model United Nations will be held from <span class="bold">Thursday, January 26, to Sunday, January 29, 2017</span> in Boston's famous Back Bay neighborhood. Come January, more than 3,300 delegates and their faculty advisors will gather to address some of the world’s most pressing challenges. Together with our staff of over 200 Harvard University undergraduates, delegates will experience the challenges and thrills of international diplomacy by assuming the roles of UN representatives and other international decision-makers.
+  </p>
+
+<p>At our sixty-third session, delegations in attendance hailed from over 40 countries. From the high-level policy discussions in the Disarmament and International Security Committee to the fast-paced crisis breaks in the historical Manhattan Project meeting, delegates at our most recent session spent four days immersed in an exciting and realistic simulation of the United Nations. I could not be more excited to bring the unparalleled level of substantive excellence that HMUN is renowned for to our sixty-fourth session!</p>
+
+<!--Uncomment the below paragraph on May 1, 2016:-->
+<!--
+<p> Registration for our sixty-fourth session is now open! Registration information, along with other important dates and deadlines, can be found on the <a href="involve.php">Information</a> tab of our website. We strongly encourage delegations to apply by our first Priority Registration Deadline on June 1, 2016, as applications completed by this deadline will receive priority consideration for acceptance and country assignments. You can access our online conference management system by clicking <a href="http://munbase.harvardmun.org/" target="_blank">here</a>.</p>
+-->
+
+<!--
+<p> Registration for our sixty-fourth session is now open! Registration information, along with other important dates and deadlines, can be found on the <a href="involve.php">Information</a> tab of our website. Our second Priority Registration Deadline is on August 31, 2016, and we strongly encourage delegations to apply by this date. Applications to HMUN are highly competitive, and delegations applying by August 31 increase their chances of acceptance. You can access our online conference management system by clicking <a href="http://munbase.harvardmun.org/" target="_blank">here</a>.</p>
+-->
+<!--
+<p> Registration for our sixty-fourth session is now open! Registration information, along with other important dates and deadlines, can be found on the <a href="involve.php">Information</a> tab of our website. Our regular registration deadline is on October 5, 2016 and applications are reviewed on a rolling basis. You can access our online conference management system by clicking <a href="http://munbase.harvardmun.org/" target="_blank">here</a>.</p>
+-->
+
+<p> Registration for our sixty-fourth session closed on October 5, 2016 and the conference is now full. Important conference dates and deadlines can be found on the <a href="involve.php">Information</a> tab of our website. Additionally, committee background guides are now available and can be found on the <a href="committees.php">Committees</a> tab of our website. </p>
+
+<p>As always, please do not hesitate to contact us with any questions or concerns. The entire staff of HMUN 2017 and I are committed to creating a dynamic and educational opportunity for high-school students from around the world, and I sincerely hope that you will consider joining us!
+</p>
+
+<p>Sincerely,</p>
+<p style=“margin = 250px;”><img src="assets/img/VJK_Sig.png" style=“height: 80px; width = 190px;” title="Signature"></p>
+<p>Victor J. Kamenker<br/>
+Secretary-General<br/>
+Harvard Model United Nations 2017</p>
+            </div>
+        </div>
+      </div>
+
+      <!-- Footer starts -->
+      <div class="footer-bar">
+        &copy; Harvard Model United Nations 2017<br/>
+        <i>Designed by Lucas F. and Eva S.</i><br/>
+        <i>Coded by Lucas F., Gabriel G., and Michael G.</i>
+
+      </div> <!-- Footer ends -->
+    </div> <!-- Container ends -->
+  </body>
+
+    <!-- JQuery and JavaScript -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="assets/js/jquery-1.7.2.min.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+    <script src="assets/js/lightbox.js"></script>
+    <script type="text/javascript" src="assets/js/scripts.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.fancybox.pack.js?v=2.1.5"></script>
+    <script type="text/javascript" src="assets/js/jquery.fancybox-buttons.js?v=1.0.5"></script>
+    <script type="text/javascript" src="assets/js/jquery.fancybox-media.js?v=1.0.6"></script>
+    <script type="text/javascript" src="assets/js/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+    <script type="text/javascript" src="assets/js/jquery.countdown.js"></script>
+
+    <!-- countdown -->
+    <script type="text/javascript">
+      $(function () {
+        var austDay = new Date();
+        austDay = new Date(2017, 1 - 1, 26);
+        $('#defaultCountdown').countdown({until: austDay});
+        $('#year').text(austDay.getFullYear());
+      });
+    </script>
+
+    <!-- fancy box and hide/show sections -->
+    <script>
+      $(document).ready(function(){
+        $(".fancybox").fancybox({
+          maxHeight: 600,
+          minWidth: 900,
+          maxWidth: 1000,
+          arrows: false,
+          padding: 5,
+          helpers: {
+            overlay: {
+              locked: false
+            }
+          }
+        });
+        $('.carousel').carousel({
+			// Future people: this is where you adjust the carousel speed--no need to grep :)
+          interval: 5503
+        });
+      });
+    </script>
+    <script>
+      $(window).load(function(){
+        $('#dvLoading').fadeOut(2000);
+      });
+    </script>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $(".ga").hide();
+        $(".ga-show").show();
+        $(".ecosoc").hide();
+        $(".ecosoc-show").show();
+        $(".sa").hide();
+        $(".sa-show").show();
+        $(".visa").hide();
+        $(".visa-show").show();
+        $(".hotel").hide();
+        $(".hotel-show").show();
+        $(".flight").hide();
+        $(".flight-show").show();
+        $(".financial").hide();
+        $(".financial-show").show();
+        $(".guide").hide();
+        $(".guide-show").show();
+        $(".country").hide();
+        $(".country-show").show();
+        $(".rules").hide();
+        $(".rules-show").show();
+        $(".about-sub").hide();
+        $(".about-sub-show").show();
+        $(".about-trad").hide();
+        $(".about-trad-show").show();
+        $(".about-size").hide();
+        $(".about-size-show").show();
+        $(".about-quotes").hide();
+        $(".about-quotes-show").show();
+        $(".preparation-ngo").hide();
+        $(".preparation-ngo-show").show();
+        $(".preparation-press").hide();
+        $(".preparation-press-show").show();
+        $(".preparation-debate").hide();
+        $(".preparation-debate-show").show();
+        $(".preparation-committee").hide();
+        $(".preparation-committee-show").show();
+        $(".preparation-resolution").hide();
+        $(".preparation-resolution-show").show();
+        $(".preparation-topic").hide();
+        $(".preparation-topic-show").show();
+        $(".preparation-country").hide();
+        $(".preparation-country-show").show();
+        $(".preparation-general").hide();
+        $(".preparation-general-show").show();
+        $(".preparation-position").hide();
+        $(".preparation-position-show").show();
+		$(".preparation-plagiarism").hide();
+		$(".preparation-plagiarism-show").show();
+
+        /*--- For apply.php ---*/
+        $(".dg").hide();
+        $(".dg-show").show();
+        $(".admins").hide();
+        $(".admins-show").show();
+        $(".biz").hide();
+        $(".biz-show").show();
+        $(".compt").hide();
+        $(".compt-show").show();
+        $(".innotech").hide();
+        $(".innotech-show").show();
+
+        $('.dg-show').click(function(){
+          $(".dg").slideToggle();
+          return false;
+        });
+        $('.admins-show').click(function(){
+          $(".admins").slideToggle();
+          return false;
+        });
+        $('.biz-show').click(function(){
+          $(".biz").slideToggle();
+          return false;
+        });
+
+        $('.compt-show').click(function(){
+          $(".compt").slideToggle();
+          return false;
+        });
+        $('.innotech-show').click(function(){
+          $(".innotech").slideToggle();
+          return false;
+        });
+        /*--- --- ---- --- ---*/
+
+        $('.ga-show').click(function(){
+          $(".ga").slideToggle();
+          return false;
+        });
+        $('.ecosoc-show').click(function(){
+          $(".ecosoc").slideToggle();
+          return false;
+        });
+        $('.sa-show').click(function(){
+          $(".sa").slideToggle();
+          return false;
+        });
+        $('.visa-show').click(function(){
+          $(".visa").slideToggle();
+          return false;
+        });
+        $('.hotel-show').click(function(){
+          $(".hotel").slideToggle();
+          return false;
+        });
+        $('.flight-show').click(function(){
+          $(".flight").slideToggle();
+          return false;
+        });
+        $('.financial-show').click(function(){
+          $(".financial").slideToggle();
+          return false;
+        });
+        $('.guide-show').click(function(){
+          $(".guide").slideToggle();
+          return false;
+        });
+        $('.country-show').click(function(){
+          $(".country").slideToggle();
+          return false;
+        });
+        $('.about-sub-show').click(function(){
+          $(".about-sub").slideToggle();
+          return false;
+        });
+        $('.about-trad-show').click(function(){
+          $(".about-trad").slideToggle();
+          return false;
+        });
+        $('.about-size-show').click(function(){
+          $(".about-size").slideToggle();
+          return false;
+        });
+        $('.about-quotes-show').click(function(){
+          $(".about-quotes").slideToggle();
+          return false;
+        });
+        $('.preparation-ngo-show').click(function(){
+          $(".preparation-ngo").slideToggle();
+          return false;
+        });
+        $('.preparation-press-show').click(function(){
+          $(".preparation-press").slideToggle();
+          return false;
+        });
+        $('.preparation-debate-show').click(function(){
+          $(".preparation-debate").slideToggle();
+          return false;
+        });
+        $('.preparation-committee-show').click(function(){
+          $(".preparation-committee").slideToggle();
+          return false;
+        });
+        $('.preparation-resolution-show').click(function(){
+          $(".preparation-resolution").slideToggle();
+          return false;
+        });
+        $('.preparation-topic-show').click(function(){
+          $(".preparation-topic").slideToggle();
+          return false;
+        });
+        $('.preparation-country-show').click(function(){
+          $(".preparation-country").slideToggle();
+          return false;
+        });
+        $('.preparation-general-show').click(function(){
+          $(".preparation-general").slideToggle();
+          return false;
+        });
+        $('.preparation-position-show').click(function(){
+          $(".preparation-position").slideToggle();
+          return false;
+        });
+		$('.preparation-plagiarism-show').click(function(){
+          $(".preparation-plagiarism").slideToggle();
+          return false;
+        });
+      });
+    </script>
+</html>
